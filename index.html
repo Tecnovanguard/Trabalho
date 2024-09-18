@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Educação Financeira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/action.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Podcast Educação Financeira</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#episodes">Episódios</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Bem-vindo ao Podcast</h2>
+                <p>Aprenda a dominar suas finanças com nossos episódios informativos e educativos.</p>
+                <button id="play-audio">Ouça um episódio</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Sobre o Podcast</h2>
+                <p>Nosso podcast é dedicado a ajudar você a entender e gerenciar melhor suas finanças pessoais.</p>
+            </div>
+        </section>
+
+        <section id="episodes">
+            <div class="container">
+                <h2>Episódios</h2>
+                <div class="video-gallery">
+                    <div class="video">
+                        <h3>Episódio 1: Introdução à Educação Financeira</h3>
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/VwcIrej1ONY" title="Vida acadêmica vale a pena? - Luiz Felipe Pondé" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="video">
+                        <h3>Episódio 2: Como Começar investindo do zero</h3>
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <!-- Adicione mais vídeos conforme necessário -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <img src ="assets/logo.png"/>
+                <form id="contact-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Podcast Bug Hunter</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
